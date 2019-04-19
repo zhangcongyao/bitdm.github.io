@@ -12,7 +12,11 @@ permalink: /2019/projects/p07/midterm/
 
 初次使用的数据集部分如下所示
 
+![ex2data](https://github.com/zhangcongyao/bitdm.github.io/blob/master/2019/projects/P07/image/ex2data.PNG)
+
 将其中同批次购物整合到一起，组成列表
+
+![ex2result](https://github.com/zhangcongyao/bitdm.github.io/blob/master/2019/projects/P07/image/ex2result.PNG)
 
 ### 模型选取
 
@@ -27,7 +31,17 @@ permalink: /2019/projects/p07/midterm/
 
 在简单测试数据上算法工作良好，如下所示
 
-真实数据集（537578行）上算法工作较慢，目前还没有运行结果。通过将数据减少到10行，可得到结果，证明
+数据
+
+![ex1data](https://github.com/zhangcongyao/bitdm.github.io/blob/master/2019/projects/P07/image/ex1data.PNG)
+
+结果
+
+![ex1result](https://github.com/zhangcongyao/bitdm.github.io/blob/master/2019/projects/P07/image/ex1result.PNG)
+
+真实数据集（537578行）上算法工作较慢，目前还没有运行结果。通过将数据减少到10行，可得到结果，证明算法无误，但效率较低
+
+![ex3result](https://github.com/zhangcongyao/bitdm.github.io/blob/master/2019/projects/P07/image/ex3result.PNG)
 
 ### 存在问题
 
@@ -36,4 +50,5 @@ permalink: /2019/projects/p07/midterm/
 ### 改进计划
 
 对数据集进行再次预处理，去除对实验结果贡献小的数据，减少无用运算
+
 改进算法，提高运算效率
